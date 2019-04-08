@@ -44,7 +44,7 @@ public class WifiNotificationActivity extends AppCompatActivity
         if(isConnected)
         {
             textView.setTextColor(Color.GREEN);
-            textView.setText("Your wifi is currently turned on.");
+            textView.setText("Your wifi is currently turned on and you are connected to a network.");
         }
         else
         {
